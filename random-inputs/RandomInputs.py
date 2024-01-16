@@ -42,7 +42,7 @@ if givenInputs != "":
             print("Starting in {} seconds".format(i))
             time.sleep(1)
 
-        print("Mordon Broto has begun gaming")
+        print("Gaming has begun")
         ButtonPress(givenInputs)
 
     else:
