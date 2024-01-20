@@ -1,7 +1,7 @@
 # Download all .py files to work
 
 ## RandomInputs.py
-This file is the file to activate to make everything work. As a python noob, it's pretty cool.
+This file is the file to activate to make everything work. As a python noob, I think it's pretty cool.
 
 ## GamesInfo.py
 This file is to insert input lists. 
