@@ -16,15 +16,7 @@ inputPause = ""
 def ButtonPress(inpList):
     while True:
         rndInput = random.choice(inpList)
-
-        # Leave as a comment the following EXCEPT for the game currently being played
-        if selectedGame == "GCN":
-            gcnOutput(rndInput)
-        elif selectedGame == "N64":
-            n64Output(rndInput)
-        else:
-            print("ERROR: selectedGame = {} ".format(selectedGame))
-
+        output(rndInput)
         time.sleep(inputPause)
 
 selectedGame = input(gamePrompt).upper()
